@@ -1,0 +1,83 @@
+.bg-container{
+    background-image:url("https://img.freepik.com/premium-photo/crack-wall-that-is-blue_1277866-746.jpg?ga=GA1.1.655012544.1718520401&semt=ais_user_ai_gen");
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+.company-name{
+    font-family:Stencil Std, fantasy;
+    font-size:48px;
+    font-weight:500;
+    color:black;
+    text-align:center;
+    margin-top:0px;
+    padding-top:20px;
+}
+.login-container{
+     background-color:white;
+     height:75%;
+     width:32%;
+     border-radius:27px;
+     display:flex;
+     flex-direction: column;
+
+}
+.login-title{
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:bold;
+    font-style:normal;
+    color:black;
+    gap:10px;text-align: center;
+}
+.input-title{
+    font-family:"Roboto";
+    font-size:18px;
+    color:black;
+    font-style:normal;
+    margin-left:15%;
+    font-weight:500;
+}
+.input-element{
+    border:1px solid black;
+    box-shadow: black;
+    
+    width:70%;
+    height:28px;    margin-left:15%;
+    border-left: 0px;
+    border-top:0px;
+    border-right:0px;
+}
+.submit-button{
+    color:white;
+    height:37px;
+    font-size:18px;
+    font-family:"Roboto";
+    background-color:#0D60AF ;
+    border:1px solid white;
+    border-radius:6px;
+    width:80%;
+    gap:10px;
+    margin-top:6%;
+    margin-left:13%;
+
+}
+
+.input{
+    font-family:"Roboto";
+    font-size:15px;
+    color:black;
+    font-style:normal;
+    margin-left:15%;
+    font-weight:300;
+}
+.required{
+    color:red;
+    margin-top:14px;
+    margin-left:15%;
+    font-family:"Roboto";
+}
