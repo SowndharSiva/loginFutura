@@ -1,5 +1,5 @@
 import React, { useState } from 'react';  
-import { useNavigate } from 'react-router-dom';  
+import { useNavigate,Link } from 'react-router-dom';  
 import './index.css';  
 
 const SignUp = () => {  
@@ -74,7 +74,7 @@ const SignUp = () => {
                 {isFilled ? null : <p className="required">Fill the Required</p>}  
 
                 <button className="submit-button" type="submit">Create an account</button>  
-                <p className="input">Already have an account?</p>  
+                <Link to="/" className="input">Already have an account?</Link>  
             </form>  
         </div>  
     );  

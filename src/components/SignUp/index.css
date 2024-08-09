@@ -74,6 +74,8 @@
     font-style:normal;
     margin-left:15%;
     font-weight:300;
+    text-decoration: none;
+    margin-top: 10px;
 }
 .required{
     color:red;

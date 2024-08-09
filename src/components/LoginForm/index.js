@@ -1,5 +1,5 @@
 import { useState } from "react";  
-import { useNavigate } from "react-router-dom";  
+import { useNavigate,Link } from "react-router-dom";  
 import "./index.css";  
 
 const LoginForm = () => {  
@@ -61,7 +61,7 @@ const LoginForm = () => {
                 {isPassword ? null : <p className="required">required</p>}  
                 {wrongInfo?null:<p className="required">Invalid Email or Password !</p>}
                 <button className="submit" type="submit">SIGN IN</button>  
-                <p className="input">Didn't Have an Account?</p>  
+                <Link to="/signup" className="input1">Didn't Have an Account?</Link>  
             </form>  
         </div>  
     );  
